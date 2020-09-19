@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Images from './Images';
 
 class AppLifeCycle extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class AppLifeCycle extends Component {
     }
 
     componentDidMount() {
-        console.log('Component Mounted')
+        console.log('AppLifeCycle Component Mounted')
         this.setState({
             title: "Hello LifeCycle Component"
         })
@@ -21,7 +22,7 @@ class AppLifeCycle extends Component {
         console.log('AppLifeCycle Rendered')
         return (
             <div>
-                {this.state.title}
+                <Images />
             </div>
         );
     }
