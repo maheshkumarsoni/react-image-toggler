@@ -1,4 +1,4 @@
-# react-image-toggler
+# [React Image Toggler](https://maheshkumarsoni.github.io/react-image-toggler/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
