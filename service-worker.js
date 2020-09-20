@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-image-toggler/precache-manifest.645c8ec8c18111ec5ed0f71a63f44fc1.js"
+  "/react-image-toggler/precache-manifest.121e622a836268915bc2d9737739fb8a.js"
 );
 
 self.addEventListener('message', (event) => {

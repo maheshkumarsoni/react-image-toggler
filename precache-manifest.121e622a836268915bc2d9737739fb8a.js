@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40cbe7579287ae764ee0381f1f4e70ba",
+    "revision": "55eafc92a534e58bc6ac2d2a0b4192f5",
     "url": "/react-image-toggler/index.html"
   },
   {
-    "revision": "3783abe8d60cf7001852",
-    "url": "/react-image-toggler/static/css/main.e5b6facb.chunk.css"
+    "revision": "f74c22824e930a18d97d",
+    "url": "/react-image-toggler/static/css/main.bdf3e334.chunk.css"
   },
   {
     "revision": "db0ce503307b9f00c6d8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-image-toggler/static/js/2.bc430364.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3783abe8d60cf7001852",
-    "url": "/react-image-toggler/static/js/main.316289f9.chunk.js"
+    "revision": "f74c22824e930a18d97d",
+    "url": "/react-image-toggler/static/js/main.a957cde8.chunk.js"
   },
   {
     "revision": "6b0987a1b4307ef6ffec",
