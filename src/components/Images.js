@@ -1,4 +1,4 @@
-// * Funcitonal Component
+// * Functional Component
 
 import React, { useState, useEffect } from 'react';
 
