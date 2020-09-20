@@ -1,31 +1,53 @@
-import React, { Component } from 'react';
+// * Functional Component
+
+import React, { useEffect } from 'react';
 import Images from './Images';
 
-class AppLifeCycle extends Component {
-    constructor(props) {
-        console.log('Constructor Called from AppLifeCycle');
-        super(props);
-        this.state = {
-            title: 'Hello React',
-            isLifeCycleShowing: false
-        };
-    }
+export default function AppLifeCycle() {
 
-    componentDidMount() {
-        console.log('AppLifeCycle Component Mounted')
-        this.setState({
-            title: "Hello LifeCycle Component"
-        })
-    }
+    useEffect(() => {
+        console.log('AppLifeCycle Component Mounted');
+    }, []);
 
-    render() {
-        console.log('AppLifeCycle Rendered')
-        return (
-            <div>
-                <Images />
-            </div>
-        );
-    }
+    return (
+        <div>
+            { console.log('AppLifeCycle Rendered')}
+            <Images />
+        </div>
+    );
+
 }
 
-export default AppLifeCycle;
+// ! Class based Component
+
+// import React, { Component } from 'react';
+// import Images from './Images';
+
+// class AppLifeCycle extends Component {
+//     constructor(props) {
+//         console.log('Constructor Called from AppLifeCycle');
+//         super(props);
+//         this.state = {
+//             title: 'Hello React',
+//             isLifeCycleShowing: false
+//         };
+//     }
+
+//     componentDidMount() {
+//         console.log('AppLifeCycle Component Mounted')
+//         this.setState({
+//             title: "Hello LifeCycle Component"
+//         })
+//     }
+
+//     render() {
+//         console.log('AppLifeCycle Rendered')
+//         return (
+//             <div>
+//                 <Images />
+//             </div>
+//         );
+//     }
+// }
+
+// export default AppLifeCycle;
