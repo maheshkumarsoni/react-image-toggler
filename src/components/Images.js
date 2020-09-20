@@ -30,7 +30,7 @@ export default function Images() {
         return images.map((image) => {
             return (
                 <div className="flex justify-center my-4 pt-10 w-1/3">
-                    <img src={image} alt={image} width='150px' />
+                    <img src={image} alt={image} width='250px' />
                 </div>
             );
         });
